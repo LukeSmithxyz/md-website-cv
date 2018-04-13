@@ -1,0 +1,248 @@
+/* Do not show subsubsections in menu: */
+
+nav li li li {display: none !important; }
+
+nav {
+	display: inline-block;
+    	text-align:center;
+	margin: 0px auto;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+}
+
+nav a {
+	padding: 10px;
+	background: #111;
+	border-radius: 20px;
+}
+
+nav li {
+	list-style: none;
+	position: relative;
+	float: left;
+}
+
+nav a {
+	display: block;
+	width: 100px;
+}
+
+nav ul ul {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	display: none;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li:hover a {
+	background-color: #222;
+}
+
+nav li:hover a:hover {
+	background-color: #333;
+}
+
+html {
+	margin-top: 2.5em;
+	padding-bottom: 20em;
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+
+body {
+	border-radius: 20px;
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 12px;
+	line-height: 1.7;
+	padding: .125em 1em 0.5em 1em;
+	margin: auto;
+	width: 1000px;
+	font-size: 16px;
+	color: #ddd;
+	background: black;
+}
+
+a {
+color: teal;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+*::-moz-selection {
+  background: rgba(255, 255, 0, 0.3);
+}
+
+*::selection {
+  background: rgba(255, 255, 0, 0.3);
+}
+
+a::-moz-selection {
+  background: rgba(255, 255, 0, 0.3);
+}
+
+a::selection {
+  background: rgba(255, 255, 0, 0.3);
+}
+
+p {
+  margin: 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 100%;
+  font-weight: normal;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+.title {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+h1 {
+	font-size: xx-large;
+}
+
+h1:after {
+	content: " ";
+	display: block;
+	border: 1px solid white;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+blockquote {
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #EEE solid;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #eee;
+  margin: 1em 0;
+  padding: 0;
+}
+
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 0.98em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+ins {
+  background: #ff9;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  font-style: italic;
+  font-weight: bold;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+li p:last-child {
+  margin-bottom: 0;
+}
+
+ul ul, ol ol {
+  margin: .3em 0;
+}
+
+dl {
+	padding: 0px;
+	margin: 0px;
+}
+
+dd {
+  	font-size: small;
+}
+
+dl dd:last-of-type {
+	display: none;
+}
+
+dl:hover dd:last-of-type {
+	display: block;
+}
