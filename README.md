@@ -23,7 +23,7 @@ These are located in the `template.tex` file.
 
 ## Use
 
-Make changes to the markdown file `index.md`. Run `make compile` and it will produce a .pdf and .html.
+Make changes to the markdown file `index.md`. Run `make` (or `make compile`) and it will produce a .pdf and .html.
 
 ## Dependencies
 
