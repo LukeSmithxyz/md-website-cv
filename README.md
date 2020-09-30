@@ -12,7 +12,7 @@ It's simple. There's one markdown file `index.md`, which has *all* of my persona
 
 I use a makefile to compile it into a LaTeX .pdf and an HTML file via pandoc.
 
-For the HTML conversion I use a CSS stylesheet (`style.css`) which:
+For the HTML conversion I use a CSS  (`style.css`) which:
 
 + Gives a custom background and div settings for the content area.
 + Creates a "table of contents" from the section headings and converts that into a menu bar where the subsections drop down.
