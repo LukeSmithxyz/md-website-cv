@@ -1,12 +1,12 @@
-# Luke's Markdown/LaTeX/pdf CV/Website
+# Luke's Markdown/LaTeX/pdf CV/Website :
 
 This is just a little experiment that I might implement for my own website and CV. Here's what I wanted:
 
 + Simplification: I don't have to update both my CV and website differently.
-+ Printability: My website should have a printable, handout-able counterpart for personal info (CV) and other writings.
-+ Automatic formatting: I want to be able to change the structure, and all the formatting, the nav bar and sections, should be natural.
++ Print_ability: My website should have a printable, handout-able counterpart for personal info(CV) and other writings.
++ Automatic_formatting: I want to be able to change the structure, and all the formatting, the nav bar and sections, should be natural.
 
-## This is the solution
+## solution : 
 
 It's simple. There's one markdown file `index.md`, which has *all* of my personal information and details in nice litte sections and subsections.
 
@@ -27,4 +27,6 @@ Make changes to the markdown file `index.md`. Run `make` (or `make compile`) and
 
 ## Dependencies
 
-pandoc, LaTeX, and if you want to use the makefile, make (you can copy the commands and run them manually if you want).
+Pandoc, LaTeX, and if you want to use the makefile, make (you can copy the commands and run them manually if you want).
+
+If you liked my repositories please share it with others.
