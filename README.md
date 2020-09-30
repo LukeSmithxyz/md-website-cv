@@ -1,4 +1,4 @@
-# Luke's Markdown/LaTeX/pdf CV/Website
+# Luke's Markdown/LaTeX/pdf CV/Website for Developers
 
 This is just a little experiment that I might implement for my own website and CV. Here's what I wanted:
 
